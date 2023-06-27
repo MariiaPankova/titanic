@@ -5,15 +5,15 @@ stages:
     deps:
     - path: data
       hash: md5
-      md5: d41f2afaff9af73f168cd4ce7bf8a798.dir
-      size: 96028647
-      nfiles: 3
+      md5: c5f612fdfe06b317e4101c4b035c692c.dir
+      size: 89823
+      nfiles: 2
     params:
       params.yaml:
         model:
-          n_estimators: 10
+          n_estimators: 140
     outs:
     - path: dvclive/metrics.json
       hash: md5
-      md5: 2a8ba0ab70f609387467aee39e886f64
-      size: 431
+      md5: 25a7f4bfe5f43a9a7491a6f8381e4d6f
+      size: 428
