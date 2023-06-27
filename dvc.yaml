@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+      - data
+    metrics:
+      - dvclive/metrics.json
+    params:
+      - model
